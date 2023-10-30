@@ -1,3 +1,6 @@
+*{
+  font-family: 'Play', sans-serif;
+}
 html.hc-nav-yscroll {
   overflow-y: scroll
 }
@@ -2455,7 +2458,7 @@ body.theme-default .hc-offcanvas-nav .second-nav {
 }
 
 .logos {
-  width: 70px;
+  width: 120px;
 }
 
 
@@ -2608,6 +2611,7 @@ body.theme-default .hc-offcanvas-nav .second-nav {
 
   background-color: #01426A;
 }
+
 /* Underline From Center */
 .hvr-underline-from-center {
   display: inline-block;
@@ -2618,6 +2622,7 @@ body.theme-default .hc-offcanvas-nav .second-nav {
   position: relative;
   overflow: hidden;
 }
+
 .hvr-underline-from-center:before {
   content: "";
   position: absolute;
@@ -2634,16 +2639,43 @@ body.theme-default .hc-offcanvas-nav .second-nav {
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-center:hover:before, .hvr-underline-from-center:focus:before, .hvr-underline-from-center:active:before {
+
+.hvr-underline-from-center:hover:before,
+.hvr-underline-from-center:focus:before,
+.hvr-underline-from-center:active:before {
   left: 10px;
   right: 10px;
 }
 
 
-.footer-bg{
+.footer-bg {
   background-color: #C9D8E0;
 }
 
-.idea{
+.idea {
   color: #01426A;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: .5;
+  transition: opacity .15s ease;
+}
+
+
+.section-bg {
+  width: 100%;
 }
