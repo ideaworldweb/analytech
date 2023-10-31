@@ -2463,7 +2463,7 @@ body.theme-default .hc-offcanvas-nav .second-nav {
 
 
 .logo {
-  width: 70px;
+  width: 80px;
 }
 
 
@@ -2678,4 +2678,25 @@ body.theme-default .hc-offcanvas-nav .second-nav {
 
 .section-bg {
   width: 100%;
+}
+
+@media (min-width:992px) {
+  .hc-offcanvas-nav {
+    display: none !important;
+  }
+
+  .fa-bars{
+    display: none !important;
+  }
+
+}
+
+
+@media (max-width:993px) {
+  .navbar-toggler{
+    display: none !important;
+  }
+  .navbar-brand {
+    margin: auto;
+  }
 }
